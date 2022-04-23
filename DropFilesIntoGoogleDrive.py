@@ -29,8 +29,6 @@ else:
 # Save the current credentials to a file
 gauth.SaveCredentialsFile("mycreds.txt")
 
-folder_Name = 'TestUploadFolder'
-cwd = os.getcwd()
 
 drive = GoogleDrive(gauth)
 
